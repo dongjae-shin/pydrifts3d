@@ -103,3 +103,4 @@ if __name__ == "__main__":
 		plt.savefig(fname='./output_{}.png'.format(path[1]), dpi=path[5])
 		print("png file written!")
 	print("end of code.")
+	input("Press Enter to exit ...")
