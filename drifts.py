@@ -23,7 +23,8 @@ def get_paths(identifier="*.csv"):
   										 split_names[2], split_names[3]), # 1: title
 		            float(split_names[4]), # 2: max_intensity
 		            float(split_names[5]), # 3: fig_ratio
-		            float(split_names[6])] # 4: font_size
+                    float(split_names[6]), # 4: font_size
+                    float(split_names[7])] # 5: dpi
 	return paths
 
 if __name__ == "__main__":
@@ -101,5 +102,6 @@ if __name__ == "__main__":
 		fig.tight_layout()
 		plt.title(path[1], pad=12)
 		plt.savefig(fname='./output_{}.png'.format(path[1]), dpi=path[5])
+		plt.show()
 		print("png file written!")
 	print("end of code.")
