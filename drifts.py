@@ -32,10 +32,9 @@ if __name__ == "__main__":
 
 	# Detecting csv files
 	paths = get_paths()
-	print("reading csv file ...")
+	print("reading csv files ...")
 	print("following csv files were detected:")
 	for i in range(len(paths)): print(i+1,": ", paths[i][0])
-	print("reading csv file loaded!")
 
 	# Iterate for the whole csv files
 	for iter, path in enumerate(paths):
@@ -102,6 +101,5 @@ if __name__ == "__main__":
 		fig.tight_layout()
 		plt.title(path[1], pad=12)
 		plt.savefig(fname='./output_{}.png'.format(path[1]), dpi=path[5])
-		plt.show()
 		print("png file written!")
 	print("end of code.")
