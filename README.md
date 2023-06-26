@@ -6,8 +6,10 @@
 1) Download executable file (drifts.exe) from the link:  
 https://www.dropbox.com/s/39ubk45g0n2wp9k/drifts.exe?dl=0
 2) Put (multiple) DRIFTS files (csv format) in the same directory of the executable file (See the example DRIFTS raw input file in this repository.).  
-![initial_state_Windows](imgs/pydrifts3d_windows_initial.png)
-3) Run the executable file by double-clicking (It takes ~30 to 60 seconds before something first pops up, depending on the running environment).  
+![initial_state_Windows](imgs/pydrifts3d_windows_initial.png)  
+Input files' names should be in the following format (This way, the plotting parameters can be set here.):  
+![input_file_format](imgs/pydrifts3d_input_format_small.png)
+4) Run the executable file by double-clicking (It takes ~30 to 60 seconds before something first pops up, depending on the running environment).  
 ![results_Windows](imgs/pydrifts3d_windows_results.png)  
 5) Output png files are generated.  
 ![final_state_Windows](imgs/pydrifts3d_windows_final.png)  
@@ -23,7 +25,7 @@ It may run faster than in Windows.
 4) Output png files are generated.
 
 ## Applications of this code
-pydrifts3d has been utilized in many scientific papers, especially in the field of catalysis:
+`pydrifts3d` has been utilized in many scientific papers, especially in the field of catalysis:
 1. *ACS Catal.* 2022, 12, 8, 4402–4414 (https://doi.org/10.1021/acscatal.2c00476)   
 2. *J. Mater. Chem. A*, 2022, 10, 24995-25008 (https://doi.org/10.1039/d2ta08217a)
 3. *Catal. Sci. Technol.*, 2023, Advance Article (https://doi.org/10.1039/D3CY00551H)
