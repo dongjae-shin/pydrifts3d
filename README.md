@@ -14,6 +14,7 @@ Input files' names should be in the following format (This way, the plotting par
 5) Output png files are generated.  
 ![final_state_Windows](imgs/pydrifts3d_windows_final.png)  
 Example plot result:  
+![example_output_plot](imgs/pydrifts3d_output_example_v2.png)  
 <p align="center"> <img width="400" src="imgs/pydrifts3d_output_example_v2.png" alt="example_output_plot"> </p>  
 
 ## Way 2. Using python code in Linux
