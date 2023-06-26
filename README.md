@@ -8,22 +8,18 @@
 1) Download executable file (drifts.exe) from the link:  
 https://www.dropbox.com/s/39ubk45g0n2wp9k/drifts.exe?dl=0
 2) Put (multiple) DRIFTS files (csv format) in the same directory of the executable file (See the example DRIFTS raw input file in this repository.).  
-
 ![initial_state_Windows](imgs/pydrifts3d_windows_initial.png)  
 Input files' names should be in the following format (This way, the plotting parameters can be set here.):  
-
-![input_file_format](imgs/pydrifts3d_input_format_small.png)
+![input_file_format](imgs/pydrifts3d_input_format_small.png)  
 4) Run the executable file by double-clicking (It takes ~30 to 60 seconds before something first pops up, depending on the running environment).  
-
 ![results_Windows](imgs/pydrifts3d_windows_results.png)  
 5) Output png files are generated.  
-  
 ![final_state_Windows](imgs/pydrifts3d_windows_final.png)  
 Example plot result:  
 <p align="center"> <img width="400" src="imgs/pydrifts3d_output_example.png" alt="example_output_plot"> </p>  
 
 ## Way 2. Using python code in Linux
-1) Download the `drifts.py' file from this repository.
+1) Download the `drifts.py` file from this repository.
 2) Put (multiple) DRIFTS files (csv format) in the same directory of the executable file in Linux.
 3) Run the code by typing:  
 ```$ python drifts.py```  
