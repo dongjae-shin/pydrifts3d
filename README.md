@@ -1,5 +1,6 @@
 # Introduction: pydrifts3d
-`pydrifts2d` is a python code to convert the experimental raw spectra data from DRIFTS (Diffuse Reflectance Infrared Fourier Transform Spectroscopy) to three dimensional plot. Multiple DRIFTS plots can be automatically generated according to the used-defined plotting parameters.
+`pydrifts2d` is a python code to convert the experimental raw spectra data from DRIFTS (Diffuse Reflectance Infrared Fourier Transform Spectroscopy) to three dimensional plot. Multiple DRIFTS plots can be automatically generated according to the used-defined plotting parameters.  
+![schematics](imgs/pydrifts3d_scheme.png)  
 
 # How to use
 ## Way 1. Using executable file in Windows
@@ -14,8 +15,7 @@ Input files' names should be in the following format (This way, the plotting par
 5) Output png files are generated.  
 ![final_state_Windows](imgs/pydrifts3d_windows_final.png)  
 Example plot result:  
-![example_output_plot](imgs/pydrifts3d_output_example_v2.png)  
-<p align="center"> <img width="400" src="imgs/pydrifts3d_output_example_v2.png" alt="example_output_plot"> </p>  
+<p align="center"> <img width="400" src="imgs/pydrifts3d_output_example.png" alt="example_output_plot"> </p>  
 
 ## Way 2. Using python code in Linux
 1) Download the `drifts.py' file from this repository.
