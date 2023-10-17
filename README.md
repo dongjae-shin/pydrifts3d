@@ -28,6 +28,6 @@ It may run faster than in Windows.
 
 ## Applications of this code
 `pydrifts3d` has been utilized in many scientific papers, especially in the field of catalysis:
-1. *ACS Catal.* 2022, 12, 8, 4402–4414 (https://doi.org/10.1021/acscatal.2c00476)   
-2. *J. Mater. Chem. A*, 2022, 10, 24995-25008 (https://doi.org/10.1039/d2ta08217a)
-3. *Catal. Sci. Technol.*, 2023, Advance Article (https://doi.org/10.1039/D3CY00551H)
+1. *ACS Catal.* **2022**, 12, 8, 4402–4414 (https://doi.org/10.1021/acscatal.2c00476)   
+2. *J. Mater. Chem. A*, **2022**, 10, 24995-25008 (https://doi.org/10.1039/d2ta08217a)
+3. *Catal. Sci. Technol.*, **2023**, 13, 3849-3858 (https://doi.org/10.1039/D3CY00551H)
