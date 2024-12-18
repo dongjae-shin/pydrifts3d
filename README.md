@@ -5,7 +5,7 @@
 
 # How to use
 ## Way 1. Using executable file in Windows
-1) Download executable file (drifts.exe) from the link:  
+1) Download executable file (`drifts.exe`) from the link:  
 https://www.dropbox.com/s/39ubk45g0n2wp9k/drifts.exe?dl=0
 2) Put (multiple) DRIFTS files (csv format) in the same directory of the executable file (See the example DRIFTS raw input file in this repository.).  
 ![initial_state_Windows](imgs/pydrifts3d_windows_initial.png)  
